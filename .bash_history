@@ -28,3 +28,9 @@ sudo chown cloudship uploaded_key.pub
 ls -la
 clear
 logout
+ls -la
+cd .ssh
+service ssh restart
+sudo service ssh restart
+ls -la
+cd .ssh
